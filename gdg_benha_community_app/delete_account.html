@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Delete Account – GDG Benha App</title>
+<style>
+:root{--bg:#fff;--fg:#1f2328;--muted:#5f6b76;--card:#f6f8fa;--line:#e1e4e8;--blue:#4285f4;--red:#d93025;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121417;--fg:#e8eaed;--muted:#9aa4ae;--card:#1b1f24;--line:#2d333b;--blue:#8ab4f8;--red:#f28b82}}
+:root[data-theme="dark"]{--bg:#121417;--fg:#e8eaed;--muted:#9aa4ae;--card:#1b1f24;--line:#2d333b;--blue:#8ab4f8;--red:#f28b82}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Naskh Arabic",sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.bar{display:flex;gap:4px;height:6px;width:96px}
+.bar i{flex:1;border-radius:3px}
+button,.cta{font:inherit;font-size:14px;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer}
+.cta{display:inline-block;background:var(--red);color:#fff;border:0;padding:10px 20px;font-size:15px;text-decoration:none;margin-top:8px}
+h1{font-size:28px;line-height:1.3;margin:20px 0 4px}
+h2{font-size:18px;margin:26px 0 6px;color:var(--blue)}
+ol,ul{padding-inline-start:22px;margin:6px 0}
+li{margin:4px 0}
+.note{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:16px 0}
+[hidden]{display:none!important}
+
+label{display:block;font-size:14px;margin:12px 0 4px}
+.chk{display:flex;gap:8px;align-items:flex-start;font-size:14px}
+input:not([type=checkbox]),textarea{width:100%;font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg);box-sizing:border-box}
+input[type=checkbox]{margin-top:6px}
+.cta{margin-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="bar"><i style="background:#ea4335"></i><i style="background:#4285f4"></i><i style="background:#34a853"></i><i style="background:#fbbc04"></i></div>
+<button id="tg" type="button">العربية</button>
+</header>
+
+<main id="en">
+<h1>Delete your GDG Benha account</h1>
+<p>You can ask us to permanently delete your GDG Benha app account and the personal data linked to it.</p>
+
+<h2>How to request deletion</h2>
+<ol>
+<li>Fill in the form below with the email you registered with.</li>
+<li>Submit it. Your email app opens with the request ready to send to <b>benhagdg@gmail.com</b>.</li>
+<li>We will confirm and complete the deletion within <b>30 days</b>.</li>
+</ol>
+
+
+<h2>What gets deleted</h2>
+<ul>
+<li>Your account (email and sign-in data).</li>
+<li>Your profile: name, photo, bio, track, affiliation, social links.</li>
+<li>Your phone number, event registrations, tickets, and saved sessions.</li>
+</ul>
+
+<h2>What may be kept</h2>
+<p>Anonymized, non-identifying attendance statistics for past events, and any data we are legally required to keep.</p>
+
+<div class="note">Deletion is permanent and cannot be undone. Your event tickets will stop working.</div>
+<p>See our <a href="privacy-policy.html">Privacy Policy</a> for more details.</p>
+</main>
+
+<main id="ar" dir="rtl" lang="ar" hidden>
+<h1>حذف حسابك في GDG Benha</h1>
+<p>تقدر تطلب منا حذف حسابك في تطبيق GDG Benha نهائيًا مع البيانات الشخصية المرتبطة بيه.</p>
+
+<h2>طريقة طلب الحذف</h2>
+<ol>
+<li>املا الفورم تحت بالإيميل المسجّل بيه في التطبيق.</li>
+<li>اضغط إرسال، وتطبيق الإيميل هيفتح والطلب جاهز يتبعت إلى <b dir="ltr">benhagdg@gmail.com</b>.</li>
+<li>هنأكد ونكمّل الحذف خلال <b>30 يومًا</b>.</li>
+</ol>
+
+
+<h2>ما الذي يتم حذفه</h2>
+<ul>
+<li>حسابك (البريد وبيانات تسجيل الدخول).</li>
+<li>ملفك الشخصي: الاسم، الصورة، النبذة، المسار، الجهة، الروابط.</li>
+<li>رقم هاتفك وتسجيلاتك في الفعاليات وتذاكرك والجلسات المحفوظة.</li>
+</ul>
+
+<h2>ما قد يتم الاحتفاظ به</h2>
+<p>إحصائيات حضور مجهولة الهوية للفعاليات السابقة، وأي بيانات يلزمنا القانون بالاحتفاظ بها.</p>
+
+<div class="note">الحذف نهائي ولا يمكن التراجع عنه، وتذاكرك للفعاليات هتبطل تشتغل.</div>
+<p>راجع <a href="privacy-policy.html#ar">سياسة الخصوصية</a> لمزيد من التفاصيل.</p>
+</main>
+
+<section id="fm" class="note">
+<h2 id="ft" style="margin-top:0"></h2>
+<form id="f" novalidate>
+<label for="n" id="ln"></label><input id="n" required autocomplete="name">
+<label for="e" id="le"></label><input id="e" type="email" required autocomplete="email" dir="ltr">
+<label for="p" id="lp"></label><input id="p" type="tel" autocomplete="tel" dir="ltr">
+<label for="r" id="lr"></label><textarea id="r" rows="3"></textarea>
+<label class="chk"><input id="c" type="checkbox"> <span id="lc"></span></label>
+<p id="er" style="color:var(--red);margin:6px 0" hidden></p>
+<button class="cta" type="submit" id="sb"></button>
+</form>
+<p id="ok" hidden></p>
+</section>
+</div>
+<script>
+(function(){
+  var en=document.getElementById('en'),ar=document.getElementById('ar'),b=document.getElementById('tg');
+  function set(l){
+    var isAr=l==='ar';
+    ar.hidden=!isAr;en.hidden=isAr;
+    document.documentElement.lang=l;
+    b.textContent=isAr?'English':'العربية';
+    try{location.hash=isAr?'ar':'en'}catch(e){}
+  }
+  b.addEventListener('click',function(){set(ar.hidden?'ar':'en')});
+  if(location.hash==='#ar')set('ar');
+
+var T={en:{t:"Deletion request form",n:"Full name",e:"Registered email",p:"Phone number (optional)",r:"Reason (optional)",c:"I understand deletion is permanent and cannot be undone.",s:"Send request",er:"Please enter your name, a valid email, and confirm the checkbox.",ok:"If your email app did not open, write to benhagdg@gmail.com with the subject “Delete my account”."},
+ar:{t:"نموذج طلب الحذف",n:"الاسم الكامل",e:"البريد المسجّل في التطبيق",p:"رقم الهاتف (اختياري)",r:"السبب (اختياري)",c:"أفهم أن الحذف نهائي ولا يمكن التراجع عنه.",s:"إرسال الطلب",er:"من فضلك اكتب اسمك وبريدًا صحيحًا وأكّد الموافقة.",ok:"لو تطبيق الإيميل مفتحش، ابعت على benhagdg@gmail.com بعنوان “Delete my account”."}};
+var fm=document.getElementById('fm');
+function g(i){return document.getElementById(i)}
+function lab(l){var d=T[l];fm.dir=l==='ar'?'rtl':'ltr';g('ft').textContent=d.t;g('ln').textContent=d.n;g('le').textContent=d.e;g('lp').textContent=d.p;g('lr').textContent=d.r;g('lc').textContent=d.c;g('sb').textContent=d.s;g('er').textContent=d.er;g('ok').textContent=d.ok}
+var _set=set;set=function(l){_set(l);lab(l)};
+lab(location.hash==='#ar'?'ar':'en');
+g('f').addEventListener('submit',function(ev){
+  ev.preventDefault();
+  var n=g('n').value.trim(),e=g('e').value.trim();
+  if(!n||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e)||!g('c').checked){g('er').hidden=false;return}
+  g('er').hidden=true;
+  var body="Account deletion request\n\nFull name: "+n+"\nRegistered email: "+e+"\nPhone: "+(g('p').value.trim()||"-")+"\nReason: "+(g('r').value.trim()||"-")+"\n\nI confirm I want my account and personal data permanently deleted.";
+  g('ok').hidden=false;
+  window.location.href="mailto:benhagdg@gmail.com?subject="+encodeURIComponent("Delete my account")+"&body="+encodeURIComponent(body);
+});
+
+})();
+</script>
+</body>
+</html>
